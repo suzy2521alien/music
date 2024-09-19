@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-fav music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed796dcd36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Eshify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Just ViBe.....bruh</h1>
+            <div>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img src="1.jpg" alt="1">
+                        <span class="songName">Espresso</span>
+                        <span class="songlistplay"><span class="timestamp">02:55 <i class="fa-regular fa-circle-play play-button" id="0"></i></span></span>
+                    </div>
+                   
+                    <div class="songItem">
+                        <img src="2.jpg" alt="2">
+                        <span class="songName">Please</span>
+                        <span class="songlistplay"><span class="timestamp">03:06 <i class="fa-regular fa-circle-play play-button" id="1"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="3.jpg" alt="3">
+                        <span class="songName">Nonesense</span>
+                        <span class="songlistplay"><span class="timestamp">02:43 <i class="fa-regular fa-circle-play play-button" id="2"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="4.jpg" alt="4">
+                        <span class="songName">Chk chk boom</span>
+                        <span class="songlistplay"><span class="timestamp">02:28 <i class="fa-regular fa-circle-play play-button" id="3"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="5.jpg" alt="5">
+                        <span class="songName">Pocketlocket</span>
+                        <span class="songlistplay"><span class="timestamp">03:08 <i class="fa-regular fa-circle-play play-button" id="4"></i></span></span>
+                        </div>
+                        <div class="songItem">
+                            <img src="6.jpg" alt="6">
+                            <span class="songName">Butterfly</span>
+                            <span class="songlistplay"><span class="timestamp">03:14 <i class="fa-regular fa-circle-play play-button" id="5"></i></span></span>
+                        </div>
+                        <div class="songItem">
+                            <img src="7.jpg" alt="7">
+                            <span class="songName">Love me like that</span>
+                            <span class="songlistplay"><span class="timestamp">03:31 <i class="fa-regular fa-circle-play play-button" id="6"></i></span></span>
+                        </div>
+                        <div class="songItem">
+                            <img src="/8.jpg" alt="8">
+                            <span class="songName">Maniac</span>
+                            <span class="songlistplay"><span class="timestamp">03:02 <i class="fa-regular fa-circle-play play-button" id="7"></i></span></span>
+                        </div>
+                        <div class="songItem">
+                            <img src="9.jpg" alt="9">
+                            <span class="songName">Loveshot</span>
+                            <span class="songlistplay"><span class="timestamp">03:20 <i class="fa-regular fa-circle-play play-button" id="8"></i></span></span>
+                        </div>
+                        <div class="songItem">
+                            <img src="10.jpg" alt="10">
+                            <span class="songName">MMH</span>
+                            <span class="songlistplay"><span class="timestamp">03:12 <i class="fa-regular fa-circle-play play-button" id="9"></i></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+                <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-forward" id="next"></i>
+            </div>
+            <div class="songInfo">
+                <img src="playing.gif" width="42px" alt="" id="gif">
+                <span id="masterSongName">Espresso - Artist Name</span>
+            </div>
+        </div>
+    
+        <!-- Add an audio element -->
+        <audio id="audioPlayer" src="songs/1.mp3"></audio>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
