@@ -21,6 +21,10 @@ Imagine a music app where you can listen to your favorite songs while enjoying a
 - navigate to the project directory 
 - Open the index.html file in any modern browser to start the music player.
 
+## THIS IS HOW IT LOOKS
+![Screenshot 2024-11-24 190759](https://github.com/user-attachments/assets/43284648-c05a-4249-a17c-2880980917f8)
+
+
 ## Developer: Eshitha Chowdary Nattem
 GitHub: https://github.com/suzy2521alien
 
